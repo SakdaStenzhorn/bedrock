@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "16ec83625fafc822a9d61416c5d6426b",
+    "content-hash": "2b3009279f2e3828d4643e8f5475f5e2",
     "packages": [
         {
             "name": "composer/installers",
@@ -466,6 +466,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/sucuri-scanner/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-gzip-compression",
+            "version": "1.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-gzip-compression/",
+                "reference": "tags/1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-gzip-compression.1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-gzip-compression/"
         },
         {
             "name": "wpackagist-plugin/wp-force-ssl",
