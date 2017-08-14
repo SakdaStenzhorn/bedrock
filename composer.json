@@ -50,6 +50,7 @@
     "wpackagist-plugin/wp-force-ssl": "*",
     "wpackagist-plugin/backupwordpress": "*",
     "wpackagist-plugin/wordpress-gzip-compression": "*"
+    "wpackagist-theme/activello":"*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
